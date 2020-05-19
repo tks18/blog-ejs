@@ -1,0 +1,10 @@
+<%- include("header") -%>
+
+	<h3>Compose</h3>
+	<form id="compose action="/compose" method="post">
+
+		<input id="postTitle" type="textbox" name="title" placeholder="Give a Title">
+		<input id="postMessage" type="textbox" name="message" placeholder="Enter Your Message">
+		<button name="compose_post" type="submit">Post</button>
+	</form>
+<%- include("footer") -%>
